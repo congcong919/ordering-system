@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-stone-50 text-stone-900 antialiased;
+    font-feature-settings: 'cv11', 'ss01';
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-brand-500 ring-offset-1;
+  }
+
+  ::selection {
+    @apply bg-brand-200 text-brand-900;
+  }
+}
+
+@layer utilities {
+  .drawer-slide-in {
+    animation: slideIn 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  @keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0.5; }
+    to   { transform: translateX(0);    opacity: 1; }
+  }
+
+  .fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+}

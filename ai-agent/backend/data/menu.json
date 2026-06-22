@@ -1,0 +1,165 @@
+{
+  "categories": ["Starters", "Mains", "Desserts", "Drinks"],
+  "items": [
+    {
+      "id": "M001",
+      "name": "Bruschetta al Pomodoro",
+      "category": "Starters",
+      "price": 8.50,
+      "description": "Grilled sourdough bread topped with fresh tomatoes, basil, garlic, and extra virgin olive oil",
+      "allergens": ["gluten"],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M002",
+      "name": "Burrata e Prosciutto",
+      "category": "Starters",
+      "price": 14.00,
+      "description": "Creamy burrata cheese with 24-month aged Parma ham, rocket, and balsamic glaze",
+      "allergens": ["dairy"],
+      "available": true,
+      "is_special": true
+    },
+    {
+      "id": "M003",
+      "name": "Zuppa del Giorno",
+      "category": "Starters",
+      "price": 9.00,
+      "description": "Chef's daily soup — ask your server for today's selection",
+      "allergens": [],
+      "available": true,
+      "is_special": true
+    },
+    {
+      "id": "M004",
+      "name": "Calamari Fritti",
+      "category": "Starters",
+      "price": 12.00,
+      "description": "Crispy fried squid rings served with lemon aioli and fresh herbs",
+      "allergens": ["gluten", "shellfish"],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M005",
+      "name": "Tagliatelle al Ragù",
+      "category": "Mains",
+      "price": 18.00,
+      "description": "Hand-rolled egg pasta with slow-cooked Bolognese ragù and Parmigiano Reggiano",
+      "allergens": ["gluten", "dairy", "eggs"],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M006",
+      "name": "Risotto ai Funghi Porcini",
+      "category": "Mains",
+      "price": 20.00,
+      "description": "Creamy Carnaroli risotto with wild porcini mushrooms, white wine, and aged Parmesan",
+      "allergens": ["dairy"],
+      "available": true,
+      "is_special": true
+    },
+    {
+      "id": "M007",
+      "name": "Branzino al Forno",
+      "category": "Mains",
+      "price": 26.00,
+      "description": "Oven-roasted sea bass with caperberries, cherry tomatoes, olives, and grilled vegetables",
+      "allergens": ["fish"],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M008",
+      "name": "Tagliata di Manzo",
+      "category": "Mains",
+      "price": 32.00,
+      "description": "Sliced grilled sirloin steak with rocket, shaved Parmesan, and truffle oil",
+      "allergens": ["dairy"],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M009",
+      "name": "Gnocchi al Pomodoro e Basilico",
+      "category": "Mains",
+      "price": 16.00,
+      "description": "Homemade potato gnocchi in a slow-cooked San Marzano tomato and basil sauce (vegan)",
+      "allergens": ["gluten"],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M010",
+      "name": "Tiramisù della Casa",
+      "category": "Desserts",
+      "price": 9.00,
+      "description": "Classic homemade tiramisù with Savoiardi biscuits, mascarpone, espresso, and Marsala",
+      "allergens": ["dairy", "eggs", "gluten"],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M011",
+      "name": "Panna Cotta al Caramello",
+      "category": "Desserts",
+      "price": 8.00,
+      "description": "Silky vanilla panna cotta with warm salted caramel sauce and toasted hazelnuts",
+      "allergens": ["dairy", "nuts"],
+      "available": true,
+      "is_special": true
+    },
+    {
+      "id": "M012",
+      "name": "Gelato Artigianale",
+      "category": "Desserts",
+      "price": 7.00,
+      "description": "Three scoops of house-made gelato — ask for today's flavours",
+      "allergens": ["dairy"],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M013",
+      "name": "Acqua Minerale",
+      "category": "Drinks",
+      "price": 3.50,
+      "description": "Still or sparkling mineral water (750ml)",
+      "allergens": [],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M014",
+      "name": "Espresso",
+      "category": "Drinks",
+      "price": 3.00,
+      "description": "Single shot of our house-blend Italian espresso",
+      "allergens": [],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M015",
+      "name": "Aperol Spritz",
+      "category": "Drinks",
+      "price": 10.00,
+      "description": "Aperol, Prosecco, a splash of soda, and a slice of orange",
+      "allergens": [],
+      "available": true,
+      "is_special": false
+    },
+    {
+      "id": "M016",
+      "name": "Vino della Casa",
+      "category": "Drinks",
+      "price": 7.50,
+      "description": "House wine — red, white, or rosé (175ml glass)",
+      "allergens": ["sulphites"],
+      "available": true,
+      "is_special": false
+    }
+  ]
+}
